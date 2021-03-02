@@ -56,6 +56,15 @@ print(one1, two2)
 
 '''
 
+'''
+num1, num2 = map(int, input().split())
 
+#In the next section - assignment operator you should know why this work
+
+num1, num2 = num2, num1
+
+print(num1, num2)
+
+'''
 
 
